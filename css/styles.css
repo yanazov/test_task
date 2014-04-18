@@ -1,0 +1,359 @@
+body{
+	display: block;
+	position: relative;
+	margin: 0px;
+	background-color: #dcdcdc;
+}
+h1{
+	display: block;
+	position: relative;
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 3px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #990000;
+	font-size: 18pt;
+}
+h2{
+	display: block;
+	position: relative;
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 3px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #000;
+	font-size: 13.5pt;
+}
+.b-center{
+	display: block;
+	position: relative;
+	min-width: 720px;
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0px 20px 0px 20px;
+	background-color: #fff;
+}
+.b-hotels__all{
+	display: inline-block;
+	position: relative;
+	font-family: Arial;
+	color: #999999;
+	font-size: 8pt;	
+}
+
+.b-hotels__number{
+	display: inline-block;
+	position: relative;
+	margin-left: 3px;
+	font-family: Arial;
+	color: #000;
+	font-size: 22pt;
+}
+.b-hotels__all__separ{
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	margin: 0px 5px 0px 5px;
+	height: 24px;
+	border-right: 1px solid #eaeaea;
+}
+.b-hotels__detail{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 77px;
+	background-color: #f1efdb;
+	margin-top: 5px;
+}
+.b-hotels__detail__main-a{
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+	padding-top: 6px;
+	font-family: Arial;
+	color: #000;
+	font-size: 13.5pt;
+	font-weight: bold;	
+}
+.b-hotels__detail__add-a{
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 20px;
+	font-family: Arial;
+	color: #999;
+	font-size: 8pt;
+}
+.b-hotels__detail__b-right{
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	text-align: right;
+}
+.b-hotels__detail__b-right__b-icon{
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	width: 33px;
+}
+.b-hotels__detail__b-right__b-icon__star{
+	display: block;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 11px;
+	background: url(../img/main_sprite.png) no-repeat;
+	background-position: 0px 0px;
+}
+.b-hotels__detail__b-right__b-icon__menu{
+	display: block;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 11px;
+	background: url(../img/main_sprite.png) no-repeat;
+	background-position: 1px -15px;
+}
+.b-hotels__detail__b-right__b-icon__point{
+	display: block;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 11px;
+	background: url(../img/main_sprite.png) no-repeat;
+	background-position: 1px -30px;
+}
+.b-hotels__detail__b-right__price{
+	display: inline-block;
+	position: relative;
+	width: 153px;
+	height: 100%;
+	background-color: #f8f7ed;
+}
+.b-hotels__detail__b-right__price a{
+	display: block;
+	position: absolute;
+	top: 9px;
+	left: 10px;
+	color: #990000;
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: 900;
+}
+.b-hotels__detail__b-right__price span{
+	display: block;
+	position: absolute;
+	top: 31px;
+	left: 10px;
+	color: #999999;
+	font-family: Arial;
+	font-size: 8pt;
+}
+.b-hotels__detail__b-right__number-info{
+	display: inline-block;
+	position: relative;
+	width: 91px;
+	height: 71px;
+	top: -3px;
+	left: 1px;
+}
+.b-hotels__detail__b-right__number-info__b1{
+	display: block;
+	position: absolute;
+	width: 45px;
+	height: 35px;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+}
+.b-hotels__detail__b-right__number-info__b1 span{
+	display: block;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	width: 41px;
+	height: 22px;
+	padding-top: 9px;
+	background-color: #dceed4;
+	text-align: center;
+	color: #45ad45;
+	font-family: Arial;
+	font-size: 8pt;
+	font-weight: bold;
+}
+.b-hotels__detail__b-right__number-info__b2{
+	display: block;
+	position: absolute;
+	width: 45px;
+	height: 35px;
+	top: 36px;
+	left: 0px;
+	background-color: #fff;
+}
+.b-hotels__detail__b-right__number-info__b2 span{
+	display: block;
+	position: relative;
+	top: 11px;
+	left: 5px;
+	width: 23px;
+	height: 22px;
+	padding-left: 13px;
+	text-align: center;
+	color: #45ad45;
+	font-family: Arial;
+	font-size: 7.5pt;
+	background: url(../img/main_sprite.png) no-repeat;
+	background-position: 0px -75px;
+}
+.b-hotels__detail__b-right__number-info__b3{
+	display: block;
+	position: absolute;
+	width: 45px;
+	height: 35px;
+	top: 0px;
+	left: 46px;
+	background-color: #fff;
+}
+.b-hotels__detail__b-right__number-info__b3 span{
+	display: block;
+	position: relative;
+	top: 11px;
+	left: 5px;
+	width: 23px;
+	height: 12px;
+	padding-left: 13px;
+	text-align: center;
+	color: #de4d37;
+	font-family: Arial;
+	font-size: 7.5pt;
+	background: url(../img/main_sprite.png) no-repeat;
+	background-position: 0px -58px;
+}
+.b-hotels__detail__b-right__number-info__b4{
+	display: block;
+	position: absolute;
+	width: 45px;
+	height: 35px;
+	top: 36px;
+	left: 46px;
+	background-color: #fff;
+}
+.b-hotels__detail__b-right__number-info__b4 span{
+	display: block;
+	position: relative;
+	top: 11px;
+	left: 5px;
+	width: 23px;
+	height: 12px;
+	padding-left: 13px;
+	text-align: center;
+	color: #0e81c5;
+	font-family: Arial;
+	font-size: 7.5pt;
+	background: url(../img/main_sprite.png) no-repeat;
+	background-position: 0px -44px;
+}
+.b-card{
+	text-align: justify;
+}
+.b-card__body{
+	display: inline-block;
+	position: relative;
+	width: 15.8%;
+	height: 190px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #fff7dc;
+	text-align: left;
+}
+.b-card__body0{
+	display: inline-block;
+	position: relative;
+	width: 15.8%;
+	height: 1px;
+
+}
+.b-card__body__pic{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 120px;
+	background-color: #00c;
+	overflow: hidden;
+}
+.b-card__body__pic img{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
+}
+.b-card__body:hover img{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.b-card__body span{
+	display: block;
+	position: relative;
+	margin: 3px 0px 0px 10px;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #ac9f71;
+}
+.b-card__body a{
+	display: block;
+	position: relative;
+	margin: 10px 0px 0px 10px;
+	
+	font-family: Arial;
+	font-size: 9.5pt;
+	font-weight: bold;
+	color: #333333;
+}
+.b-card__body__b-text{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 71px;
+	top: 120px;
+	left: 0px;	
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+	.b-card__body, .b-card__body0{
+		width: 18.8%;	
+	}
+}  
+@media only screen and (min-width: 320px) and (max-width: 1023px){
+	.b-card__body, .b-card__body0{
+		width: 24.5%;	
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
